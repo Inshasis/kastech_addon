@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include kastech_addon *.css
+recursive-include kastech_addon *.csv
+recursive-include kastech_addon *.html
+recursive-include kastech_addon *.ico
+recursive-include kastech_addon *.js
+recursive-include kastech_addon *.json
+recursive-include kastech_addon *.md
+recursive-include kastech_addon *.png
+recursive-include kastech_addon *.py
+recursive-include kastech_addon *.svg
+recursive-include kastech_addon *.txt
+recursive-exclude kastech_addon *.pyc
